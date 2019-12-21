@@ -1,0 +1,814 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+    
+    
+    .custom-company-page-content {
+        overflow: visible;
+    }
+    
+    ._customer-page {
+        color: #303030;
+        font: 300 16px/1.4 Roboto, Arial, sans-serif;
+        cursor: default;
+        max-width: 1227px;
+        min-width: 768px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    ._customer-page>* {
+        box-sizing: border-box;
+    }
+
+    ._customer-page ul,
+    ._customer-page ol {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+    ._customer-page .ul-mod,
+    ._customer-page .li-mod {
+       list-style: disc;
+       margin-left: 17px;
+    }
+    
+    ._customer-page .ul-steps,
+    ._customer-page .li-steps {
+        list-style: disc;
+        margin:0px 0px 0px 25px;
+        font-weight: 200;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    ._customer-page p {
+        line-height: 1.4;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    ._customer-text p:last-child {
+        margin-bottom: 0;
+    }
+
+    ._customer-page strong {
+        font-weight: 500;
+    }
+
+    ._customer-title {
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    ._customer-button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 170px;
+        height: 51px;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        padding: 12px 26px 10px;
+        background-image: linear-gradient(to top, #ff7500, #ffa600);
+        color: #fff;
+        font: 300 18px/1.2 Roboto, Arial, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all .2s;
+        margin-top: 20px;
+    }
+
+    ._customer-button_simple {
+        padding: 3px;
+    }
+
+    ._customer-button_simple span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        box-sizing: border-box;
+        border-radius: 23px;
+        padding: 6px 20px 4px;
+        background-color: #fff;
+        color: #303030;
+    }
+
+    ._customer-button_simple:hover span {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    ._customer-button:hover {
+        background-image: linear-gradient(to top, #eb5800, #ffa200);
+    }
+
+    ._customer-section {
+        padding-bottom: 80px;
+    }
+
+    ._customer-cnt {
+        padding: 0 5px;
+        max-width: 230px;
+        text-align: center;
+        position: relative;
+        top: -92px;
+        z-index: 2;
+    }
+
+    ._customer-section_title {
+        padding-left: 25px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    ._customer-section_title:before {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #f98900;
+        position: absolute;
+        top: 11px;
+        left: 0;
+    }
+
+    ._customer-page_intro {
+        border-radius: 10px;
+        padding: 50px 50px;
+        padding-left: 110px;
+        background: #f2f2f2 url(images/logo.png) 30px center no-repeat;
+        margin-top: 60px;
+    }
+
+    ._customer-features {
+        margin: 0 -30px;
+    }
+
+    ._customer-features ul {
+        display: flex;
+    }
+
+    ._customer-features li {
+        width: calc(100% - 30px);
+        padding-left: 105px;
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin: 0 30px;
+    }
+    
+    ._customer-features ._customer-li-pt{
+        padding-top: 22px;
+    }
+    
+    ._customer-features strong {
+            padding-bottom: 10px;
+    }
+        
+    ._customer-features ._customer-li-style {
+        padding-left: 0px;
+        list-style: disc;
+        margin-left: 17px;
+    }
+
+    ._customer-val {
+        display: flex;
+        padding: 60px 0 80px;
+        text-align: left;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: -80px;
+    }
+
+    ._customer-val_content {
+        border-radius: 10px;
+        padding: 20px 45px 55px;
+        padding-right: 500px;
+        background: #d0ebfd url(images/bgNew.png);
+        background-size: cover;
+        box-shadow: 0 11px 54px rgba(60, 60, 60, 0.41);
+    }
+
+    ._customer-val ._customer-title {
+        margin-bottom: 22px;
+    }
+
+    ._customer-val_call {
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+        min-height: 44px;
+        background: url(images/iconCol.png) left center no-repeat;
+        font-size: 20px;
+        margin-top: 13px;
+    }
+
+    ._customer-val img {
+        position: absolute;
+        top: 30px;
+        right: 44px;
+    }
+    ._customer-val ._customer-imgWork {
+            position: absolute;
+            top: 45px;
+            right: 105px;
+        }
+
+    ._customer-val_catalog {
+        padding-top: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    ul._customer-catalog {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px -30px;
+    }
+
+    ._customer-catalog li {
+        width: calc(25% - 30px);
+        min-height: 300px;
+        position: relative;
+        margin: 0 15px 30px;
+    }
+
+    ._customer-catalog a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+        padding: 30px 20px;
+        background-color: #fff;
+        color: inherit;
+        text-decoration: none;
+        text-align: left;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    ._customer-catalog a:hover {
+        height: auto;
+        padding-bottom: 110px;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.30);
+        position: absolute;
+        z-index: 2;
+    }
+
+    ._customer-catalog_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+
+    ._customer-catalog_image img {
+        max-width: 100%;
+    }
+
+    ._customer-catalog_name {
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    ._customer-price-size {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-column-gap: 10px;
+        margin-top: 10px;
+    }
+
+    ._customer-price {
+        height: 28px;
+        border-radius: 3px;
+        background-color: rgb(0, 100, 193);
+        color: #fff;
+        display: flex;
+        place-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    ._customer-size {
+        height: 27px;
+        color: #9b9b9b;
+        border: 1px solid #e7e7e7;
+        border-radius: 3px;
+        display: flex;
+        place-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    ._customer-catalog a:hover ._customer-catalog_name {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    ._customer-catalog ._customer-button {
+        display: none;
+        position: absolute;
+        bottom: 30px;
+        left: calc(50% - 100px);
+    }
+
+
+    ._customer-catalog a:hover ._customer-button {
+        display: inline-flex;
+    }
+
+    @media screen and (max-width: 1023px) {
+
+        ._customer-catalog {
+            justify-content: center;
+        }
+
+        ._customer-catalog li {
+            min-width: 264px;
+        }
+
+        ._customer-catalog a {
+            height: 100%;
+            padding-bottom: 90px;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.13);
+            position: relative;
+        }
+
+        ._customer-catalog ._customer-button {
+            display: inline-flex;
+        }
+    }
+
+    ._customer-cont ._customer-val_content {
+        min-height: 0;
+        padding: 21px 45px 55px;
+        padding-right: 380px;
+        background-image: url(images/bg1.png);
+        background-size: cover;
+        background-position-y: bottom;
+    }
+    
+    ._customer-val_catalog ._customer-val_content ._customer-title {
+        margin-bottom: 19px;
+    }
+
+    ._customer-val_catalog img {
+        top: auto;
+        bottom: 0;
+        right: 45px;
+    }
+
+    ._customer-val_catalog ._customer-button {
+        margin-top: 30px;
+    }
+
+
+    ul._customer-counter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 -15px;
+    }
+
+    ._customer-counter li {
+        width: 290px;
+        margin: 0 15px 40px;
+    }
+
+    ._customer-counter li span {
+        display: block;
+        padding: 35px 0 17px;
+        color: #73c6fd;
+        background-repeat: no-repeat;
+        text-shadow: 9px 0 11px rgba(0, 108, 189, .9);
+        font-weight: 500;
+        font-size: 104px;
+        line-height: 1;
+        position: relative;
+    }
+
+    ._customer-counter .befOne span::before {
+        content: "более";
+        color: #666666;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-shadow: none;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    ._customer-counter .befTwo span::before {
+            content: "Монтаж за";
+            color: #666666;
+            font-family: "Roboto";
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            text-shadow: none;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+    ul._customer-advantages {
+        display: flex;
+        justify-content: center;
+        margin: 0 -15px -30px;
+    }
+
+    ._customer-advantages li {
+        width: calc(25% - 30px);
+        min-height: 100px;
+        box-sizing: border-box;
+        padding-left: 110px;
+        padding-top: 20px;
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin: 0 15px 30px;
+    }
+
+    ._customer-advantages li span {
+        display: block;
+    }
+
+    ._customer-slider {
+        padding: 0 40px;
+        position: relative;
+    }
+
+    ._customer-slider_button {
+        width: 40px;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: transparent url(images/Forma2.png) right center no-repeat;
+        cursor: pointer;
+        position: absolute;
+        top: calc(50% - 20px);
+        right: 0;
+    }
+
+    ._customer-slider_button_prev {
+        transform: scale(-1, 1);
+        left: 0;
+    }
+    
+    
+    ._customer-test {
+        display: flex;
+    }
+
+    ._customer-text-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: calc(100% - 490px);
+    }
+
+    ._customer-el-img {
+        min-width: 326px;
+        position: relative;
+        top: -52px;
+        margin-bottom: -50px;
+        left: 26px;
+    }
+
+    ._customer-el-button {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 25px -15px 0;
+    }
+
+    ._customer-el-button>* {
+        margin: 15px 15px 0;
+    }
+
+    @media screen and (max-width: 1023px) {
+        ._customer-text-block {
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+
+        ._customer-text-block ._customer-text {
+            max-width: 600px;
+            margin: 0 auto 25px;
+        }
+
+        ._customer-trade img {
+            position: static;
+            min-width: 0;
+            margin-bottom: 0;
+        }
+
+        ._customer-el-button {
+            justify-content: center;
+        }
+
+        ._customer-el-button ._customer-button {
+            width: 226px;
+        }
+    }
+    
+    ._customer-geo>* {
+        position: relative;
+    }
+
+    ._customer-geo ._customer-text {
+        max-width: 760px;
+        z-index: 2;
+    }
+
+    ._customer-geo img {
+
+    }
+
+    @media screen and (max-width: 1023px) {
+        ._customer-geo ._customer-text {
+            font-weight: 500;
+            margin: 0 auto;
+        }
+        
+        ._customer-geo img {
+            height: 286px;
+        }
+    }
+    
+    ol._customer-steps {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ._customer-steps .li-style {
+        width: 20%;
+        padding: 130px 5px 0;
+        background-position: center top;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        z-index: 2;
+    }
+
+    ._customer-steps .li-style:first-child:before {
+        content: "";
+        display: block;
+        width: calc(400% - 130px);
+        height: 0;
+        border-top: 6px dotted #f2f2f2;
+        position: absolute;
+        left: calc(50% + 65px);
+        top: 54px;
+        z-index: 1;
+    }
+    
+    @media screen and (max-width:1023px){
+        ._customer-steps .li-style:first-child:before {
+            content: "";
+            display: none;
+            width: calc(400% - 130px);
+            height: 0;
+            border-top: 6px dotted #f2f2f2;
+            position: absolute;
+            left: calc(50% + 65px);
+            top: 54px;
+            z-index: 1;
+        }
+    }
+
+    ._customer-steps+._customer-button {
+        margin-top: 12px;
+    }
+
+    @media screen and (max-width:1023px) {
+        ol._customer-steps {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ._customer-steps .li-style {
+            width: 290px;
+            padding-top: 120px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    
+    ._customer-reviews_item {
+        width: 100%;
+        max-width: 335px;
+        height: 100%;
+        min-height: 440px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 30px;
+        background-color: #f2f2f2;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+    }
+
+    ._customer-reviews_photo {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    ._customer-reviews ._customer-reviews_photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    ._customer-reviews_name {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    ._customer-reviews_text p:last-child {
+        margin-bottom: 0;
+    }
+
+    ._customer-clients_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    ._customer-clients ._customer-clients_logo img {
+        width: auto;
+        object-fit: contain;
+    }
+
+    @media screen and (max-width: 1100px) {
+        ._customer-val {
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        ._customer-val_content {
+            min-height: 360px;
+            padding-right: 385px;
+            background-size: cover;
+        }
+
+        ._customer-val img {
+            width: 290px;
+            top: calc(50% - 155px);
+            right: 45px;
+        }
+    }
+
+    @media screen and (max-width: 1023px) {
+        ._customer-page {
+            text-align: center;
+            min-width: 0;
+        }
+        
+        ._customer-button-style {
+            margin-top: 90px;
+        }
+        
+        ._customer-page_intro {
+            background: #f2f2f2 url(images/logo.png) no-repeat;
+            background-position: top;
+            padding-left: 1px;
+        }
+
+        ._customer-cnt {
+            max-width: 100%;
+        }
+
+        ._customer-section_title {
+            padding-left: 0;
+        }
+
+        ._customer-section_title:before {
+            display: none;
+        }
+
+        ._customer-page__intro {
+            padding: 100px 20px 30px;
+            background-position: center 25px;
+        }
+
+        ._customer-features,
+        ul._customer-advantages {
+            margin: 0 auto -35px;
+        }
+
+        ._customer-features ul,
+        ul._customer-advantages {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ._customer-features li,
+        ._customer-advantages li {
+            background-position: center top;
+            /*margin: 0 auto 35px;*/
+            padding-left: 0;
+            padding-top: 90px;
+        }
+        ._customer-features ._customer-li-style {
+            padding-top: 0px;
+        }
+
+        ._customer-advantages li {
+            padding-top: 110px;
+            padding-left: 0;
+            width: 100%;
+        }
+
+        ._customer-advantages li span {
+            display: inline;
+        }
+
+        ._customer-reviews_photo {
+            margin: 0 auto 20px;
+        }
+        
+        ._customer-cont ._customer-val_content {
+            padding-right: 45px;
+        }
+        
+        ._customer-imgWork {
+            display: none;
+        }
+        
+        ._customer-test {
+            flex-direction: column;
+        }
+        
+        ._customer-el-img {
+            height: 300px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        ._customer-val_content {
+            padding: 30px 20px 50px;
+            text-align: center;
+        }
+
+        ._customer-val_catalog ._customer-val_content {
+            padding-bottom: 0;
+        }
+
+        ._customer-val img {
+            position: static;
+            margin: 30px auto 15px;
+        }
+
+        ._customer-val_catalog img {
+            margin-bottom: 0;
+        }
+
+        ._customer-val_call {
+            justify-content: center;
+            padding-left: 0;
+            background-image: none;
+        }
+
+        ._customer-slider {
+            padding: 0 25px;
+        }
+
+        ._customer-slider_button {
+            width: 25px;
+        }
+    }
